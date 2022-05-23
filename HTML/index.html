@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery A</title>
+
+    <link rel="stylesheet" href="../CSS/reset.css">
+    
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+    
+    <h1>Gallery</h1>
+
+    <div class="container">
+
+        <ul class="gallery">
+            <!-- 
+                thumbnail: 120x120px
+                full imgae: 600x800px
+            -->
+            <li>
+                <a href="#code_geass">
+                    <img src="../ASSET/IMG/THUMB/Code geass.jpg" alt="Code geass" width="120px" height="120px">
+                    <span>Code Geass</span>
+                </a>
+
+                <div class="overlay" id="code_geass">
+                    <img src="../ASSET/IMG/FULL/Code geass.jpg" alt="code_geass" class="full_image">
+                    <a href="#" class="btn-close">X</a>
+                    <a href="#sao" class="btn-close prev">PREV</a>
+                    <a href="#one_piece" class="btn-close next">NEXT</a>
+                </div>
+            </li>
+            <li>
+                <a href="#one_piece">
+                    <img src="../ASSET/IMG/THUMB/One piece.jpg" alt="One piece" width="120px" height="120px">
+                    <span>One Piece</span>
+                </a>
+                <div class="overlay" id="one_piece">
+                    <img src="../ASSET/IMG/FULL/One piece.jpg" alt="one_piece" class="full_image">
+                    <a href="#" class="btn-close">X</a>
+                    <a href="#code_geass" class="btn-close prev">PREV</a>
+                    <a href="#pikachu" class="btn-close next">NEXT</a>
+                </div>
+            </li>
+            <li>
+                <a href="#pikachu">
+                    <img src="../ASSET/IMG/THUMB/Pikachu.jpg" alt="Pikachu" width="120px" height="120px">
+                    <span>Pikachu</span>
+                </a>
+                <div class="overlay" id="pikachu">
+                    <img src="../ASSET/IMG/FULL/Pikachu.jpg" alt="pikachu" class="full_image">
+                    <a href="#" class="btn-close">X</a>
+                    <a href="#one_piece" class="btn-close prev">PREV</a>
+                    <a href="#sao" class="btn-close next">NEXT</a>
+                </div>
+            </li>
+            <li>
+                <a href="#sao">
+                    <img src="../ASSET/IMG/THUMB/Thumb - kirito & asuna sword.png" alt="Code geass" width="120px" height="120px">
+                    <span>S.A.O</span>
+                </a>
+                <div class="overlay" id="sao">
+                    <img src="../ASSET/IMG/FULL/Kirito & Asuna's swords.png" alt="sao" class="full_image">
+                    <a href="#" class="btn-close">X</a>
+                    <a href="#pikachu" class="btn-close prev">PREV</a>
+                    <a href="#code_geass" class="btn-close next">NEXT</a>
+                </div>
+            </li>
+
+            <div class="clear"></div>
+        </ul>
+
+    </div>
+
+</body>
+</html>
